@@ -12,7 +12,7 @@ const StackNaviagtion = () => {
   const options = { headerShown: false };
 
   return (
-    <Stack.Navigator>
+    <Stack.Navigator initialRouteName='TabNavigation'>
       <Stack.Screen name="Login" component={LoginScreen} options={options} />
       <Stack.Screen name="Signup" component={SignupScreen} options={options} />
       <Stack.Screen name="TabNavigation" component={TabNavigation} options={options} />

@@ -8,4 +8,6 @@ module.exports={
     Arrow: require("../assests/Aroow.png"),
     facebook: require("../assests/facebook.png"),
     google: require("../assests/search.png"),
+    notification: require("../assests/notification.png"),
+    
 }

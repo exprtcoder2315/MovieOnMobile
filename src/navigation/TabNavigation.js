@@ -7,7 +7,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from "../screens/Home";
 import Favorite from "../screens/Favorite";
 import Features from "../screens/features";
-import { FeaturesIcon, HomeIcon, Shape } from "../assests/Images";
+import { FeaturesIcon, HomeIcon, Shape, notification } from "../assests/Images";
 import { Image, View } from "react-native";
 
 
@@ -48,9 +48,9 @@ const TabNavigation = () => {
                             }}
                         >
                             <Image
-                                source={Shape}
+                                source={notification}
                                 resizeMode='contain'
-                                style={{ tintColor: focused ? '#110E47' : "" }}
+                                style={{ height:25,width:25,tintColor: focused ? '#110E47' : "" }}
                             />
                         </View>
 

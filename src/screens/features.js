@@ -3,8 +3,8 @@ import { Text, View } from "react-native"
 
 const Features =()=>{
     return(
-        <View>
-<Text> Features</Text>
+        <View style={{alignItems:"center",justifyContent:"center",flex:1}}>
+<Text style={{color:"#000"}}> Features</Text>
         </View>
     )
 }
